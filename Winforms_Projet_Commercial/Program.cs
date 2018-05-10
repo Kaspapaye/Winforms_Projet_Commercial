@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Winforms_Projet_Commercial
+namespace WinForm_projet_Commerciale
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Winforms_Projet_Commercial
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmModificationClient());
+            Application.Run(new frmMDI());
         }
     }
 }
